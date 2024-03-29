@@ -354,16 +354,16 @@ button:hover {
   left: 50%;
 }
 
-.finland-map-wrap {
+.world-map-wrap {
   position: relative;
 }
 
-.finland-map-wrap .finland-map {
+.world-map-wrap .world-map {
   opacity: 0.5;
   display: block;
 }
 
-.finland-map-wrap .beacon-wrap {
+.world-map-wrap .beacon-wrap {
   position: absolute;
   top: 95.5%;
   left: 40%;
@@ -372,18 +372,18 @@ button:hover {
   transform: translateY(-50%) translateX(-50%);
 }
 
-.finland-map-wrap .beacon-center {
+.world-map-wrap .beacon-center {
   background: #fff;
   width: 10px;
   height: 10px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   transform: translateY(-50%) translateX(-50%);
   border-radius: 50%;
 }
 
-.finland-map-wrap .beacon {
+.world-map-wrap .beacon {
   border: 2px solid #fff;
   border-radius: 50%;
   animation: ping 3s infinite;
